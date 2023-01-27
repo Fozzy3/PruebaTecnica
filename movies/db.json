@@ -1,0 +1,32 @@
+{
+  "movieList": [
+    {
+      "movieName": "Movie 1",
+      "calification": "5",
+      "country": "Colombian",
+      "id": 1
+    },
+    {
+      "movieName": "Movie 2",
+      "calification": "4",
+      "country": "EEUU",
+      "id": 2
+    },
+    {
+      "movieName": "Movie 3",
+      "calification": "5",
+      "country": "Colombian",
+      "id": 3
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

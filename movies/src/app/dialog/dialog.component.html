@@ -1,0 +1,28 @@
+<h1 mat-dialog-title>Add a Movie</h1>
+<div mat-dialog-content>
+  <form [formGroup]="movieForm">
+    <p></p>
+    <mat-form-field appearance="outline">
+      <mat-label>Name</mat-label>
+      <input formControlName="movieName" matInput placeholder="" />
+      <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+    </mat-form-field>
+
+    <mat-form-field appearance="outline">
+      <mat-label>Calification</mat-label>
+      <input formControlName="calification" matInput placeholder="" />
+      <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+    </mat-form-field>
+
+    <mat-form-field appearance="outline">
+      <mat-label>Country</mat-label>
+      <input formControlName="country" matInput placeholder="" />
+      <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+    </mat-form-field>
+  </form>
+
+  <button class="btn" mat-flat-button color="primary" (click)="addMovie()">
+    {{ actionBtn }}
+  </button>
+  <button class="btn" mat-flat-button color="warn">Delete</button>
+</div>
